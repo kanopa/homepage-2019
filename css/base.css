@@ -504,6 +504,10 @@
     align-items: center;
     justify-content: center;
   }
+  #song
+  {
+    display:none;
+  }
   .avatar {
     border-radius: 50px;    
     position: relative;

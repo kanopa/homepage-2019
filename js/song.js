@@ -1,3 +1,5 @@
-jQuery(document).ready(function() {
-    jQuery("#rotateImg").rotate(45);
-});
+var beepThree = $("#song")[0];
+$("#nav-three") .mouseenter(function() {
+    beepThree.play();
+}).mouseleave(function()
+     { beepThree.pause();});

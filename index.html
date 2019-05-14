@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="css/base.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   </head>
   <body>
     <main>
@@ -13,7 +14,16 @@
             <div class="row">
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
-                  <object class="avatar" data="content/picture.jpg" role="img" aria-label="My profile picture"> </object>
+                    <div id="nav-three">
+                        <object class="avatar" data="content/picture.jpg" role="img" aria-label="My profile picture"> </object>
+                        <audio id="song" controls preload="auto">
+                         <source src="content/Untitled.mp3" controls></source>
+                         <source src="content/Untitled2.ogg" controls></source>
+                         Your browser isn't invited for super fun time.
+                       </audio>
+                      </div>
+                     
+                     <script src = "js/song.js"></script>
                 </div>
               </div>
               <div class="thirteen wide column">
